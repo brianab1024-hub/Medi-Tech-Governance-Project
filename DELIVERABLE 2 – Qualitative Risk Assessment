@@ -1,0 +1,35 @@
+# Deliverable 2 – Qualitative Risk Assessment
+
+This assessment identifies key third-party and cloud-related risks introduced during Medi-Tech’s migration to AeroData Cloud Services.
+
+---
+
+## 📌 Risk Register
+
+### **Risk 1 – Insider Threat at AeroData**
+- **Description:** A privileged AeroData employee (custodian) bypasses monitoring to steal customer PII.
+- **Likelihood:** Medium  
+- **Impact:** High  
+- **Mitigation Strategy:** Require AeroData to provide annual **SOC 2 Type II** reports proving strong access controls and logging for privileged users.
+
+---
+
+### **Risk 2 – Failure to Patch Critical Vulnerabilities**
+- **Description:** AeroData does not patch critical vulnerabilities (e.g., Log4j), exposing Medi-Tech data.
+- **Likelihood:** Medium  
+- **Impact:** High  
+- **Mitigation Strategy:** Mandate a **patch management SLA** requiring critical vulnerabilities to be patched within **7 days**.
+
+---
+
+### **Risk 3 – Data Sovereignty Violation**
+- **Description:** AeroData stores EU customer data outside EU-approved regions, causing GDPR exposure.
+- **Likelihood:** Low  
+- **Impact:** High  
+- **Mitigation Strategy:** Require contract clauses mandating that EU and Canadian data must stay in designated, approved regions.
+
+---
+
+## ✔️ Summary
+
+These risks represent the highest-impact issues facing Medi-Tech in a cloud vendor relationship, focusing on access control, patching discipline, and regulatory compliance.
